@@ -149,10 +149,12 @@ st.markdown(
 # Top introduction
 # --------------------------------------------------
 
-st.markdown(
+st.html(
     """
     <section class="hero">
-        <div class="hero-label">HALAL CERTIFICATION EXPERIENCE</div>
+        <div class="hero-label">
+            HALAL CERTIFICATION EXPERIENCE
+        </div>
 
         <h1>
             國光三價及四價流感疫苗<br>
@@ -164,10 +166,8 @@ st.markdown(
             在原料審查、共用生產線，以及清潔與設備管理方面的經驗。
         </p>
     </section>
-    """,
-    unsafe_allow_html=True,
+    """
 )
-
 # --------------------------------------------------
 # Three core areas
 # --------------------------------------------------
